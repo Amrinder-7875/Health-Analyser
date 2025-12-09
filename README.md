@@ -1,14 +1,18 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
 
-Overview
+## Overview
 
 The AI Health Report Analyzer is an intelligent web-based tool designed to make medical reports easier to understand. Users can upload a PDF health report, and the system extracts the content, analyzes it using an AI model, and generates a structured summary with key highlights, abnormal values, and health suggestions.
 
+## Link 
+https://health-analyser.vercel.app/
+
+get sample report pdf: https://drive.google.com/file/d/1yJIGVnJP1rnJfG2bEOz2bujeYGj0Kfe9/view
 This project was built as a minor academic project to explore how AI can be integrated into real-world web applications.
 
 ⸻
 
-🎯 Features
+## Features
 	•	📄 Upload PDF medical reports
 	•	🤖 AI-powered text interpretation
 	•	✨ Clean and modern front-end UI
@@ -17,10 +21,10 @@ This project was built as a minor academic project to explore how AI can be inte
 	•	🌗 Light / Dark mode support
 	•	🚀 Deployed front-end and back-end
 
- How It Works
+ ## How It Works
  User uploads PDF ➜ Backend extracts text ➜ AI analyzes report ➜ Summary returned to UI
 
-Installation & Setup
+## Installation & Setup
 
 1️⃣ Clone Repository
   git clone https://github.com/Amrinder/health-analyzer
@@ -36,9 +40,11 @@ PORT=3000
 4️⃣ Run Development Server
 npm start
 
-Deployment
+## Deployment
 	•	Frontend: Vercel
 	•	Backend: Render / Railway
+## License
+This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
 
 Make sure to update API URL in the /script.js file when deploying.
 
